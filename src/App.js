@@ -2,13 +2,21 @@ import React from "react";
 // import logo from './logo.svg';
 import './App.css';
 
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import About from "./components/About";
+import Contact from "./components/Contact"
 
 function App() {
   return (
     <div>
     <>
     <NavBar />
+    <About />
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Contact />
     </>
     </div>
      // <div className="App">
