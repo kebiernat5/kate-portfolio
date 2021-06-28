@@ -1,18 +1,19 @@
 import React from 'react'
 import tw from "twin.macro";
+import KEB_0920 from "../assets/images/KEB_0920.jpeg"
 
 function Contact() {
     return (
 <div tw="p-4 relative">
     <div tw="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
         <a href="#" target="_blank" tw="block relative">
-            <img src="./src/assets/images/KEB_0920.jpeg" tw="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
+            <img src={KEB_0920} tw="mx-auto object-cover rounded-full h-40 w-40  border-2 border-white dark:border-gray-800"/>
         </a>
     </div>
     <div tw="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
         <div tw="text-center">
             <p tw="text-2xl text-gray-800 dark:text-white">
-                Kate
+                Kate Biernat
             </p>
             <p tw="text-xl text-gray-500 dark:text-gray-200 font-light">
                 Junior Dev
