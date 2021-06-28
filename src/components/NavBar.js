@@ -14,8 +14,10 @@ function NavBar() {
           </li>
           <li tw="px-3 flex">
             <a
+              className="nav-link"
               target="_blank"
-              href="src/assets/images/Kate+Biernat+May+2021+Resume.docx.pdf"
+              href="assets/Kate+Biernat+May+2021+Resume.docx.pdf"
+              rel="noopener noreferrer"
             >
               Resume
             </a>
