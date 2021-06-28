@@ -5,7 +5,7 @@ import KEB_0902 from "../assets/images/KEB_0902.jpeg";
 
 function NavBar() {
   return (
-    <div tw="border border-solid border-black bg-hero-pattern" >
+    <div tw="border border-solid border-black bg-hero-pattern">
       <Header />
       <nav>
         <ul tw="py-10 flex px-20 py-40 text-2xl font-serif max-w-full">
@@ -14,8 +14,8 @@ function NavBar() {
           </li>
           <li tw="px-3 flex">
             <a
-              href="assets/images/Header/Kate Biernat - Resume.pdf"
-              target="blank"
+              target="_blank"
+              href="src/assets/images/Kate+Biernat+May+2021+Resume.docx.pdf"
             >
               Resume
             </a>
