@@ -1,10 +1,15 @@
 import React from "react";
 // import logo from './logo.svg';
 import './App.css';
+import tw from "twin.macro";
 
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import WorkDayCard from "./components/WorkDayCard";
+import FitnessTrackerCard from "./components/FitnessTrackerCard";
 import Contact from "./components/Contact"
+import WeatherCard from "./components/WeatherCard";
+import PetCard from "./components/PetCard";
 
 function App() {
   return (
@@ -12,6 +17,15 @@ function App() {
     <>
     <NavBar />
     <About />
+    <br></br>
+    <h1 tw="text-3xl font-serif text-center"><b>Work</b></h1>
+    <br></br>
+    <div tw="flex justify-items-center flex-wrap">
+    <FitnessTrackerCard />
+    <WorkDayCard />
+    <WeatherCard />
+    <PetCard />
+    </div>
     <br></br>
     <br></br>
     <br></br>
