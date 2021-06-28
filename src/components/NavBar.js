@@ -5,10 +5,12 @@ import KEB_0902 from "../assets/images/KEB_0902.jpeg";
 
 function NavBar() {
   return (
-    <div tw="border border-solid border-black bg-hero-pattern">
+    <div tw="border border-solid border-black bg-cover" style={{
+	    backgroundImage: `url(${KEB_0902})`,
+        }}>
       <Header />
       <nav>
-        <ul tw="py-10 flex px-20 py-40 text-2xl font-serif max-w-full">
+        <ul tw="text-white py-10 flex px-20 py-10 text-4xl font-serif max-w-full">
           <li tw="px-3 flex">
             <a href="#about-me"> About Me </a>
           </li>
