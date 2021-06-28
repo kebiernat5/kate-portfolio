@@ -10,7 +10,7 @@ function NavBar() {
         }}>
       <Header />
       <nav>
-        <ul tw="text-white py-10 flex px-20 py-10 text-3xl font-serif max-w-full">
+        <ul tw="text-white py-10 flex px-10 py-20 text-3xl font-serif max-w-full">
           {/* <li tw="px-3 flex">
             <a href="#about-me"> AboutMe </a>
           </li> */}

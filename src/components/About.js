@@ -4,7 +4,7 @@ import IMG_0355 from "../assets/images/IMG_0355.jpeg"
 
 function About() {
     return (
-        <div tw="border border-solid p-20 grid grid-rows-1 grid-flow-col gap-4 md:items-start">
+        <div tw="border border-solid p-10 grid grid-rows-1 grid-flow-col gap-4 md:items-start">
             <img tw="row-span-1 items-center h-40 w-40 rounded-lg" src={IMG_0355} alt="Avatar" styleName="width:50px"></img>
             <div>
                 <h4 tw="text-2xl font-serif"><b>About Kate</b></h4>
