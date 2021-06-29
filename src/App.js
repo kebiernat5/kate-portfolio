@@ -20,7 +20,7 @@ function App() {
     <br></br>
     <h1 tw="text-5xl text-center font-shimmy"><b>Work</b></h1>
     <br></br>
-    <div tw="flex justify-items-center flex-wrap">
+    <div tw="flex justify-items-center flex-wrap items-center">
     <FitnessTrackerCard />
     <WorkDayCard />
     <WeatherCard />
