@@ -18,7 +18,7 @@ function App() {
     <NavBar />
     <About />
     <br></br>
-    <h1 tw="text-3xl font-serif text-center"><b>Work</b></h1>
+    <h1 tw="text-5xl text-center font-shimmy"><b>Work</b></h1>
     <br></br>
     <div tw="flex justify-items-center flex-wrap">
     <FitnessTrackerCard />
